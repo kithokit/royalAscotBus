@@ -14,6 +14,7 @@
 		A44BA0101AC10AD4000324BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44BA00F1AC10AD4000324BD /* Images.xcassets */; };
 		A44BA0131AC10AD4000324BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44BA0111AC10AD4000324BD /* LaunchScreen.xib */; };
 		A44BA01F1AC10AD4000324BD /* RoyalAscotBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BA01E1AC10AD4000324BD /* RoyalAscotBusTests.swift */; };
+		A44BA0291AC1149D000324BD /* ColvwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BA0281AC1149D000324BD /* ColvwCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A44BA0181AC10AD4000324BD /* RoyalAscotBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyalAscotBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44BA01D1AC10AD4000324BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A44BA01E1AC10AD4000324BD /* RoyalAscotBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoyalAscotBusTests.swift; sourceTree = "<group>"; };
+		A44BA0281AC1149D000324BD /* ColvwCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColvwCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				A44BA00F1AC10AD4000324BD /* Images.xcassets */,
 				A44BA0111AC10AD4000324BD /* LaunchScreen.xib */,
 				A44BA0041AC10AD4000324BD /* Supporting Files */,
+				A44BA0281AC1149D000324BD /* ColvwCell.swift */,
 			);
 			path = RoyalAscotBus;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				A44BA00B1AC10AD4000324BD /* SecondViewController.swift in Sources */,
 				A44BA0071AC10AD4000324BD /* AppDelegate.swift in Sources */,
+				A44BA0291AC1149D000324BD /* ColvwCell.swift in Sources */,
 				A44BA0091AC10AD4000324BD /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				A44BA0241AC10AD4000324BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A44BA0251AC10AD4000324BD /* Build configuration list for PBXNativeTarget "RoyalAscotBusTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				A44BA0271AC10AD4000324BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
